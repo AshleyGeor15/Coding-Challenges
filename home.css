@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+#container {
+	width:100%;
+	margin:0;
+}
+#header {
+	background-image: url(header.jpg);
+	max-width:100%;
+	min-height: 135px;
+	max-height:180px;
+	border: 2px #D3D2D2 solid;
+	border-radius:3px;
+}
+
+.Blog_Title {
+	margin-top: 5px;
+	margin-bottom:3px;
+	margin-left:10px;
+	font-size:35pt;
+	color:#fff;
+	width:100%
+}
+
+	
+#nav_setup{
+	list-style-type: none;
+	margin-top:5px;
+	width:100%;
+	
+}
+
+#navv{
+	float:left;
+	margin-left:2em;
+	
+	display:inline;
+}
+
+.Home_Button{
+	width: 330px;
+	min-height:60px;
+	max-height:70px;
+	color:#ffffff;
+	background-color:#A4EBE9;
+	padding-left:10px;
+	border-radius:4px;
+	font-size:30pt;
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+
+.Article_Button{
+	width: 330px;
+	min-height:60px;
+	max-height:70px;
+	color:#ffffff;
+	background-color:#A4EBE9;
+	padding-left:10px;
+	border-radius:4px;
+	font-size:30pt;
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+.AboutMe_Button{
+	padding-left:10px;
+	width: 330px;
+	min-height:60px;
+	max-height:70px;
+	color:#ffffff;
+	background-color:#A4EBE9;
+	border-radius:4px;
+	font-size:30pt;
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+a{
+	text-decoration:none;
+}
+
+/* This is the navigation buttons that fade */
+#One:hover{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+
+#Two:hover{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+
+#Three:hover{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+
+#Textbox{
+	border: 2px #D3D2D2 solid;
+	 float: left;
+	 margin-left:80px;
+	 margin-top: 20px;
+	 padding: 10px;
+	 min-width: 45%;
+	 max-width:56%;
+	 min-height: 270px;
+	 max-height:350px;
+}
+
+.Textbox_Title{
+	font-family: 'Lora', serif;
+	font-size: 22pt;
+	margin-top:10px;
+	
+}
+
+.Textbox_para{
+	font-family: 'Lora', serif;
+	font-size: 17pt;
+	margin-top:10px;
+	box-sizing: border-box;
+
+}
+
+.image {
+	border-radius:45%;
+	height: 300px;
+	width:300px;
+	margin-top: 15px;
+	margin-left:60px;
+	
+}

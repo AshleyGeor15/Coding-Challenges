@@ -1,0 +1,189 @@
+/* 
+This is the Stylesheet for AboutMe and Featured Article
+
+*/
+* {
+	font-family: 'Lora', serif;
+}
+#Header {
+	background-image: url(header.jpg);
+	max-width:100%;
+	min-height: 135px;
+	max-height:180px;
+	border: 2px #D3D2D2 solid;
+	border-radius:3px;
+}
+
+.Blog_Title {
+	margin-top: 5px;
+	margin-bottom:3px;
+	margin-left:10px;
+	font-size:35pt;
+	color:#fff;
+	width:100%
+}
+
+#nav_setup{
+	list-style-type: none;
+	margin-top:5px;
+	width:100%;
+	
+}
+
+#navv{
+	float:left;
+	margin-left:2em;
+	
+	display:inline;
+}
+
+.Home_Button{
+	width: 330px;
+	min-height:50px;
+	max-height:60px;
+	color:#ffffff;
+	background-color:#A4EBE9;
+	padding-left:10px;
+	border-radius:4px;
+	font-size:30pt;
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+
+.Article_Button{
+	width: 330px;
+	min-height:50px;
+	max-height:60px;
+	color:#ffffff;
+	background-color:#A4EBE9;
+	padding-left:10px;
+	border-radius:4px;
+	font-size:30pt;
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+.AboutMe_Button{
+	padding-left:10px;
+	width: 330px;
+	min-height:50px;
+	max-height:60px;
+	color:#ffffff;
+	background-color:#A4EBE9;
+	border-radius:4px;
+	font-size:30pt;
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+a{
+	text-decoration:none;
+}
+
+/* This is the navigation buttons that fade */
+#One:hover{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+
+#Two:hover{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+
+#Three:hover{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+
+#biography {
+	border: 3px #63989c solid;
+	width: 90%;
+	height: 390px;
+	background-color: #A4EBE9;
+	margin-top: 85px;
+	margin-left:45px;
+}
+
+/*	#biography1 {
+	border: 3px #000 solid;
+	border-radius:16px;
+	width: 90%;
+	height: 390px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-left:45px;
+}
+
+*/
+
+.Profile_Pic{
+	height: 67%;
+	width:21%;
+	margin:15px;
+	float:right;
+	border: 3px #fff solid;
+}
+.Textbox_Title{
+	font-family: 'Lora', serif;
+	font-size: 24pt;
+	margin-top:10px;
+	margin-left:12px;
+
+	
+}
+
+.Textbox_para{
+	font-family: 'Lora', serif;
+	font-size: 14.5pt;
+
+	margin-left: 10px;
+	box-sizing: border-box;
+
+}
+
+/* This is FeatureArticle Content Area */
+
+.Llama_icon {
+	height:100px;
+	width:100px;
+	
+}
+
+#Content_area {
+	width:90%;
+	height:825px;
+	border: 3px #63989c solid;
+	margin-left:55px;
+	margin-top: 75px;
+} 
+
+.Content_Title {
+	font-size:27pt;
+	margin-left:10px;
+	margin-bottom:25px;
+	text-align:center;
+}
+
+.content_para{
+	width:84%;
+	font-size:14pt;
+	margin-left:15px;
+	margin-bottom:20px;
+}
+
+.AshleyRiding {
+	margin-left:25%;
+	margin-bottom:30px;
+	height: 210px;
+	width:210px;
+}
+
+.AshleyRiding1 {
+	
+	margin-bottom:30px;
+	margin-left:15%;
+	height: 210px;
+	width:210px;
+}
